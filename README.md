@@ -1,1 +1,1 @@
-# COM301-OS
+#COM301 Operating Systems
