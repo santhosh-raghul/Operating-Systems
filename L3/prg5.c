@@ -26,7 +26,7 @@ int main()
     else if(pid>0) // parent block
     {
         printf("This is parent block. Sorting in ascending order is done here\n");
-        asc_sort(arr,0,n-1);
+        asc_sort(arr,0,n-1); // sort in ascending order
         printf("Array after sorting : ");
         for(int i=0;i<n;i++)
             printf("%d ",arr[i]);
@@ -35,7 +35,7 @@ int main()
     else // child block
     {
         printf("This is child block. Sorting second half in descending order is done here\n");
-        desc_sort(arr,0,n-1);
+        desc_sort(arr,0,n-1);  // sort in descending order
         printf("Array after sorting : ");
         for(int i=0;i<n;i++)
             printf("%d ",arr[i]);

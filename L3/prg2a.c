@@ -18,14 +18,14 @@ int main()
     else if(pid>0) // parent block
     {
         printf("This is the parent block, odd series : ");
-        for(int i=1;i<=n;i+=2)
+        for(int i=1;i<=n;i+=2) // print odd series
             printf("%d ",i);
         printf("\n");
     }
     else // child block
     {
         printf("This is the child block, even series : ");
-        for(int i=0;i<=n;i+=2)
+        for(int i=0;i<=n;i+=2) // print even series
             printf("%d ",i);
         printf("\n");
     }

@@ -78,12 +78,12 @@ void sort(int a[],int start,int end)
 void bin_search(int a[], int x, int start, int end,int* pos)
 {
     // pos={-1,-1};
-    *pos=bin_search_first_occ(a,x,start,end);
+    *pos=bin_search_first_occ(a,x,start,end); // returns the starting position of the search key
     if(pos[0]!=-1)
     {
         pos[1]=pos[0];
         while(a[pos[1]]==x)
-            pos[1]++;
+            pos[1]++;                    // find ending postion of search key in pos[1]
         pos[1]--;
     }
 }
