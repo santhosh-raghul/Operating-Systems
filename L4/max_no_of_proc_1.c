@@ -47,6 +47,7 @@ int main()
 				exit(0);
 			}
 		}
+		while(wait(NULL)!=-1);
 		exit(0);
 	}
 	else
