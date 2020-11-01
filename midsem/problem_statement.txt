@@ -1,0 +1,19 @@
+Dear SANTHOSH RAGHUL G S,
+Question: Develop a C program that checks if a matrix is orthogonal or not. 
+An orthogonal matrix say A satisfies the property that AT=A-1. Have 
+appropriate number of processes. Compare the efficiency of the 
+multiprocessing version over its equivalent serial version.
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+Dr. Sivaselvan B
