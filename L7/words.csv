@@ -1,0 +1,5 @@
+process,a series of actions that you do for a particular purpose,an instance of a program running in a computer
+fork,an implement with two or more prongs used for lifting food to the mouth or holding it when cutting,system call used for creating a new process
+thread,a thin fine cord formed by spinning and twisting short fibers into a continuous strand,the smallest sequence of programmed instructions that can be managed independently by a scheduler
+lock,a mechanism for keeping a door window lid or container fastened,a synchronization mechanism for enforcing limits on access to a resource when there are many threads of execution
+starvation,suffering or death caused by lack of food,indefinite postponement of a process that requires some resource before but the resource is never allocated to this process
